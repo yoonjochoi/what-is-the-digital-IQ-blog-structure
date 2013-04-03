@@ -1,6 +1,4 @@
 $(function(){
-
-	
 	var jarallax = new Jarallax();
 	jarallax.setDefault('#intro-page', {display:'none'});
 	
@@ -49,8 +47,8 @@ $(function(){
 
 	jarallax.addAnimation('#brands-are', 
 						   [{progress:'0%', top: '100%', paddingLeft: '145px'},
-						   {progress:'10%', top: '50%', opacity: '1', paddingLeft: '145px'},
-						   {progress:'15%', top: '50%', opacity: '1', paddingLeft: '230px'},
+						   {progress:'10%', top: '56%', opacity: '1', paddingLeft: '145px'},
+						   {progress:'15%', top: '56%', opacity: '1', paddingLeft: '230px'},
 						   {progress:'20%', top: '45%', opacity: '0.5', paddingLeft: '230px'},
 						   {progress:'75%', top: '45%', opacity: '0.5', paddingLeft: '230px'}]);
 						   
@@ -224,16 +222,14 @@ $(function(){
 						   {progress:'88%', top: '59%', opacity: '1', marginLeft:'43px', display:'block'},
 						   {progress:'100%', top: '59%', opacity: '1', marginLeft:'43px', display:'block'}]);
 
-
-
-
+//BOTTOM ICONS
 	jarallax.addAnimation('#wrap-bottom-icons', 
 						   [{progress:'0%', top: '100%'},
 						   {progress:'20%', top: '100%'},
 						   {progress:'25%', top: '85%'},
 						   
 						   {progress:'100%', top: '85%'}]);	
-
+	//icon glow
 	jarallax.addAnimation('#BI-bg1', 
 						   [{progress:'0%', top: '100%', opacity: '0'},
 						   {progress:'20%', top: '100%', opacity: '0'},
@@ -270,7 +266,7 @@ $(function(){
 						   {progress:'86%', top: '85%', opacity: '1', display:'block'},
 						   {progress:'88%', top: '85%', opacity: '0', display:'block'},
 						   {progress:'100%', top: '85%', opacity: '0'}]);	
-
+	//icon img
 	jarallax.addAnimation('#BI1', 
 						   [{progress:'0%', top: '85%', opacity: '0'},
 						   {progress:'20%', top: '85%', opacity: '0.3', display:'block'},
@@ -307,33 +303,8 @@ $(function(){
 						   {progress:'86%', top: '85%', opacity: '1', display:'block'},
 						   {progress:'88%', top: '85%', opacity: '0.3', display:'block'},
 						   {progress:'100%', top: '85%', opacity: '0.3'}]);	
-
 						   
-	jarallax.addAnimation('#bottom-icon-site', 
-						   [{progress:'0%', top: '100%'},
-						   {progress:'30%', top: '100%'},
-						   {progress:'45%', top: '85%'},
-						   {progress:'100%', top: '85%'}]);
-						   
-	jarallax.addAnimation('#bottom-icon-digital-marketing', 
-						   [{progress:'0%', top: '100%'},
-						   {progress:'30%', top: '100%'},
-						   {progress:'45%', top: '85%'},
-						   {progress:'100%', top: '85%'}]);
-						
-	jarallax.addAnimation('#bottom-icon-Mobile', 
-						   [{progress:'0%', top: '100%'},
-						   {progress:'30%', top: '100%'},
-						   {progress:'45%', top: '85%'},
-						   {progress:'100%', top: '85%'}]);
-						   
-	jarallax.addAnimation('#bottom-icon-social-media', 
-						   [{progress:'0%', top: '100%'},
-						   {progress:'30%', top: '100%'},
-						   {progress:'45%', top: '85%'},
-						   {progress:'100%', top: '85%'}]);
-
-
+//RANKING PAGE
 	jarallax.addAnimation('#span-DigitalIQ', 
 						   [{progress:'0%', top: '100%'},
 						   {progress:'85%', top: '100%', display:'block'},
@@ -345,7 +316,8 @@ $(function(){
 						   {progress:'85%', top: '100%', display:'block', opacity: '1'},
 						   {progress:'89%', top: '0%', display:'block', opacity: '1', marginTop:'56px'},
 						   {progress:'100%', top: '0%', opacity: '0', marginTop:'56px'}]);
-						   
+
+	//span that changes "Ranking" to Reports"						   
 	jarallax.addAnimation('#span-Reports', 
 						   [{progress:'0%', top: '100%'},
 						   {progress:'94%', top: '100%', marginTop:'56px', display:'block', opacity: '0'},
@@ -393,10 +365,11 @@ $(function(){
 						   {progress:'91%', top: '41%', display:'block', opacity: '1'},
 						   {progress:'100%', top: '0%', opacity: '0'}]);	
 
+//REPORT PAGE
 	jarallax.addAnimation('#reports, #wrap-reports', 
 						   [{progress:'0%', top: '100%'},
 						   {progress:'90%', top: '100%', display:'block'},
-						   {progress:'100%', top: '20%', display:'block'}]);
+						   {progress:'100%', top: '25%', display:'block'}]);
 						   
 	jarallax.addAnimation('#ranking-reportcover1-1, #ranking-reportcover2-1, #ranking-reportcover3-1', 
 						   [{progress:'0%', marginLeft: '-250%'},
