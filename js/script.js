@@ -1,6 +1,5 @@
 $(function(){
 
-	window.scrollTo(100,500);
 	
 	var jarallax = new Jarallax();
 	jarallax.setDefault('#intro-page', {display:'none'});
@@ -425,3 +424,4 @@ $(function(){
 						   {progress:'100%', marginLeft: '0%', display:'block'}]);
 						   
 });
+
